@@ -67,7 +67,26 @@ section{
     -webkit-background-clip: text;
     font-size: 5rem;
 }
-
+.spath {
+    stroke-dasharray: var(--length);
+    stroke-dashoffset: var(--length);
+    animation: example 2s linear 0s infinite;
+    stroke:url(#gradient)
+}
+.tpath {
+    stroke-dasharray: var(--length);
+    stroke-dashoffset: var(--length);
+    animation: example 2s linear 0.1s infinite;
+}
+/* The animation code */
+@keyframes example {
+    from {
+        stroke-dashoffset: var(--length);
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
 .wrapper {
     height: 200vh;  
 }
