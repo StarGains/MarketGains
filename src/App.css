@@ -3,17 +3,15 @@
     padding:0;
     box-sizing: border-box;
 }
-.nav-wrapper{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top:10px;
+.App{
+    margin-top: 100px;
 }
 nav{
     background-color: rgba(255, 255, 255,.6);
     filter: drop-shadow(10px);
     border-radius: 16px;
-    position: fixed;
+    top: 30px;
+    position: sticky;
     z-index: 10000;
     display: flex;
     width:50vw;
@@ -47,13 +45,17 @@ section{
     height: 100vh;
 }
 
-.landing-page{
+.hero-page{
+    margin-top: 50px;
+    box-shadow: 0 -250px rgba(200,200,200);
     background-color: rgb(200, 200, 200);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.landing-text{
+.hero-text{
+    position: relative;
+    bottom:100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows : repeat(3, 1fr);
