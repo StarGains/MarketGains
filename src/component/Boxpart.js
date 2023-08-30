@@ -15,11 +15,13 @@ export default function Boxpart(){
     }, [])
     let ref = useRef();
     return(
-        <div className="wrapper">
-            <div className="bp" ref={ref} style={{ transform: `scale(${0.5 + 0.08 * percent})` }}>
-                <p>this is the box part</p>
-            </div>
+        <div className="wrapper" ref={ref}>
+        <div className="box">
+          <div className="short-box" style={{transform:`scale(${Math.min(0.5+ 0.5*percent,1.5)})`}}>
+
+          </div>
         </div>
+      </div>
     )
 }
 

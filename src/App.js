@@ -1,9 +1,15 @@
 import './App.css';
-import Headbar from './component/Headbar';
+import Boxpart from "./component/Boxpart";
+import NavBar from './component/NavBar';
+import LandingPage from './scenes/LandingPage';
 function App() {
   return (
     <div className="App">
-      <Headbar />
+      <NavBar />
+      <LandingPage />
+      <Boxpart />
+      <section></section>
+      <section></section>
     </div>
   );
 }
