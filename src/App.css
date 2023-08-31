@@ -7,6 +7,16 @@
     margin-top: 75px;
     box-shadow: inset 0 -300px #191919; 
 }
+
+/* The animation code */
+@keyframes trace {
+    from {
+        stroke-dashoffset: var(--length);
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
 .nav-bar{
     background-color: rgba(255, 255, 255,.6);
     filter: drop-shadow(10px);
@@ -70,26 +80,6 @@ section{
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 5rem;
-}
-.spath {
-    stroke-dasharray: var(--length);
-    stroke-dashoffset: var(--length);
-    animation: example 2s linear 1s infinite;
-    stroke:url(#gradient)
-}
-.tpath {
-    stroke-dasharray: var(--length);
-    stroke-dashoffset: var(--length);
-    animation: example 2s linear 0.1s infinite;
-}
-/* The animation code */
-@keyframes example {
-    from {
-        stroke-dashoffset: var(--length);
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
 }
 .wrapper {
     height: 200vh;  
@@ -196,7 +186,20 @@ section{
     overflow: hidden;
     border-radius: 1rem;
 }
-
+.floater{
+    position:absolute;
+    animation: rotate 5s linear 2s infinite forwards;
+    right:50px;
+    z-index: -1;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .card-holder{
     display: flex;
     justify-content: space-around;
@@ -212,6 +215,7 @@ section{
     background-color: white;
     border-radius: 1rem;
     text-align: center;
+    gap:10px;
 }
 .card-wrapper p{
  text-align: left;
