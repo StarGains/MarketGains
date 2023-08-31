@@ -2,10 +2,6 @@ import { useEffect } from "react";
 import SVGPath from "../component/SVGPath";
 
 export default function HeroPage(){
-    useEffect(()=>{
-        // let path = [0];
-        document.querySelector("body").style.setProperty("--length", 1000);
-    },[])
     return(
         <section className="hero-page">
             <div className="hero-text">
