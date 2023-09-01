@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Gradient({gradients}){
     return(
         <svg style={{display:'none'}} xmlns="http://www.w3.org/2000/svg">

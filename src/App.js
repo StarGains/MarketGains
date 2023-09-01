@@ -1,4 +1,6 @@
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Boxpart from "./component/Boxpart";
 import Gradient from './component/Gradients';
 import NavBar from './component/NavBar';

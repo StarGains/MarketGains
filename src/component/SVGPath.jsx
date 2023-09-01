@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function SVGPath({ path }) {
     const [pathLength, setPathLength] = useState();

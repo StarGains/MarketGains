@@ -1,8 +1,14 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { useState, useEffect, useCallback, useRef } from "react";
 
 export default function Card({ card }) {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     let ref = useRef();
     return (
+        // data - aos = "zoom-in" data - aos - duration="1500" 
         <div className="card-wrapper" ref={ref}>
             <img src={card.src} alt="" />
             <h3>{card.heading}</h3>
