@@ -12,9 +12,9 @@ export default function TermsAndConditions(){
                 <input type="checkbox" />
                 <p>I hereby accept all the Terms & Conditions.</p>
             </div>
-            <div>
-                <input type="email" placeholder="email" />
-                <input type="submit" />
+            <div className="email-submit">
+                <input id="e1" type="email" placeholder="email" />
+                <input id="submit" type="submit" />
             </div>
     </div>)
 }
