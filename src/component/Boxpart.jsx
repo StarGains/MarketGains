@@ -20,7 +20,7 @@ export default function Boxpart() {
     AOS.init();
   }, [])
   return (
-    <div className="wrapper" ref={ref}>
+    <div className="wrapper" style={{visibility:'hidden'}} ref={ref}>
       <div className="box">
         <div className="short-box" style={{ transform: `scale(${Math.min(0.5 + 0.5 * percent, 1)})` }}>
           <div className="inner-box" style={{opacity:`${percent}`}}>

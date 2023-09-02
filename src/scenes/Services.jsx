@@ -18,7 +18,7 @@ export default function Services() {
   }, [])
   return (
     <div className="services">
-      <svg data-aos="fade-left" data-aos-duration="1500"class="floater" width="143" height="143" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg data-aos="fade-left" data-aos-duration="1500" className="floater" width="143" height="143" viewBox="0 0 143 143" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M19.835 89.668L59.7552 70.134C63.0966 68.4989 67.1307 69.8822 68.7658 73.2236C70.4008 76.5649 69.0175 80.5991 65.6761 82.2341L25.7559 101.768L19.835 89.668Z" fill="#399600" />
         <path d="M77.2341 69.0804C75.5991 65.739 76.9824 61.7048 80.3238 60.0698L120.244 40.5358L126.165 52.636L86.2447 72.17C82.9033 73.805 78.8692 72.4217 77.2341 69.0804Z" fill="#399600" />
         <path d="M72.704 70.547C69.3634 72.1817 65.3301 70.7987 63.6955 67.4581L44.1558 27.5262L56.2532 21.6066L75.7929 61.5385C77.4276 64.8791 76.0446 68.9124 72.704 70.547Z" fill="#399600" />
