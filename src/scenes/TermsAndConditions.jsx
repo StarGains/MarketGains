@@ -2,6 +2,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useState, useEffect, useCallback, useRef } from "react";
 export default function TermsAndConditions(){
+    //Email checking and linking on web
+
+
+
+    //scroll animation for svg file
     const [percent, setPercent] = useState(0);
     const handleScroll = useCallback(function handleScroll(e) {
         let percentage = (window.scrollY / (window.innerHeight))
@@ -37,7 +42,7 @@ export default function TermsAndConditions(){
                 <li>Neither our team persons nor our company is not responsible for the profits and losses of the clients money in the dmat account.</li>
             </ol>
             <div className="accept-tandc">
-                <input type="checkbox" />
+                    <input type="checkbox" />
                 <p>I hereby accept all the Terms & Conditions.</p>
             </div>
             <div className="email-submit">

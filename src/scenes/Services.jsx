@@ -37,8 +37,16 @@ export default function Services() {
           <p>Unmached Gudiance Sharing</p>
           <p>The Fast and reliable source for Analysis and Decision making</p>
         </div>
-        <button>Live News</button>
-        <button>Live Market</button>
+        <a
+          href="https://www.moneycontrol.com/markets/indian-indices/?wl=indices"
+          target="_blank"
+          rel="noreferrer"
+        ><button>Live News</button></a> 
+        <a
+          href="https://www.cnbctv18.com/live-tv/"
+          target="_blank"
+          rel="noreferrer"
+        ><button>Live Market</button></a>
       </div>
     </div>
   )

@@ -3,6 +3,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import logo from "../images/logo.svg"
 export default function NavBar(){
+    //contact info card part
+    
     useEffect(() => {
         AOS.init();
     }, [])
@@ -11,5 +13,4 @@ export default function NavBar(){
         <p className="company-name">MarketGains</p>
         <button>contact</button>
     </nav>
-
 }
