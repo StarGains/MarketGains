@@ -20,6 +20,9 @@ function App() {
 
   const customStyles = {
     content: {
+      borderRadius:'10px',
+      width:'700px',
+      height:'350px',
       top: '50%',
       left: '50%',
       right: 'auto',
@@ -67,7 +70,7 @@ function App() {
       <NavBar openContact={openModal} />
       <HeroPage />
       <div style={{position:'relative'}}>
-      <SVGPath viewBox={`386 -600 475 2220`} path={{d:"M-11 19.3937C127.546 -27.2771 418.51 -14.0092 474 412.429C453.191 681.286 327.059 1219 -11 1219"}}/>
+      <SVGPath viewBox={`50 -600 2000 2220`} path={{d:"M-11 19.3937C127.546 -27.2771 418.51 -14.0092 474 412.429C453.191 681.286 327.059 1219 -11 1219"}}/>
       <Boxpart />
       </div>
       <Services />

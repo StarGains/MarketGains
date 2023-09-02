@@ -3,7 +3,7 @@ export default function ContactInfo({closeModal}) {
         <div class="Cont-box" data-aos="fade-down" data-aos-duration="1000">
             <div class="header-box">
                 <div id="ci-title">Contact Info</div>
-                <button type="button" id="btn-close" onClick={closeModal} aria-label="Close">x</button>
+                <button type="button" id="bc" onClick={closeModal} aria-label="Close">x</button>
             </div>
             <div class="content">
                 <div class="info-container">
