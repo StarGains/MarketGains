@@ -69,11 +69,11 @@ function App() {
       <Gradient />
       <NavBar openContact={openModal} />
       <HeroPage />
-      {/* <div style={{position:'relative'}}>
+      <div style={{position:'relative'}}>
       <SVGPath viewBox={`50 -600 2000 2220`} path={{d:"M-11 19.3937C127.546 -27.2771 418.51 -14.0092 474 412.429C453.191 681.286 327.059 1219 -11 1219"}}/>
       <Boxpart />
       </div>
-      <Services />
+      {/* <Services />
       <TermsAndConditions /> */}
     </div>
   );
