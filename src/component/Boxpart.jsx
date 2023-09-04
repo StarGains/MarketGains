@@ -24,12 +24,12 @@ export default function Boxpart() {
       <div className="box">
         <div className="short-box" style={{ transform: `scale(${Math.min(0.5 + 0.5 * percent, 1)})` }}>
           <div className="inner-box" style={{opacity:`${percent}`}}>
-            <div data-aos="fade-right" data-aos-duration="1500" className="inner-sidebar">
+            <div data-aoso="fade-right" data-aoso-duration="1500" className="inner-sidebar">
               <div><img src={logo} alt="" className="img" /><div>MarketGains</div></div>
               <p>Navigate the market's waves with knowledge as your compass,discipline as your anchor, and intuition as your sail</p>
               <p>In the world of trading, influence flows to those who master this gets success.</p>
             </div>
-            <div data-aos="fade-down" data-aos-duration="1500"className="inner-nav">
+            <div data-aoso="fade-down" data-aoso-duration="1500"className="inner-nav">
               <nav>
               <p>MarketCap</p>
               <p>Volume</p>
@@ -37,7 +37,7 @@ export default function Boxpart() {
               <img src={profile} alt="" />
               </nav>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className="inner-graph">
+            <div data-aoso="zoom-in" data-aoso-duration="1500" className="inner-graph">
               <div className="graph">
               <svg width="465" height="330" viewBox="0 0 465 330" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 304.114L16.2883 282.546L29.0229 304.114L50.6164 257.822L62.2437 277.286L82.7298 322L123.148 168.919L139.205 206.269L172.426 126.309L192.912 198.378L230.562 91.5899L244.958 119.471L254.37 91.5899L292.021 235.202L349.049 36.3546L359.569 67.9176L380.056 9L407.186 106.845L421.581 54.2403L440.407 97.9025L462 36.3546" stroke="url(#paint0_linear_79_21)" strokeDasharray="1428" strokeDashoffset={1428*(1-Math.min(percent,1))} strokeOpacity="0.7" strokeWidth="5" />
