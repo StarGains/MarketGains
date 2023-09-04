@@ -5,3 +5,6 @@
 .logo{
     height:40px;
 }
+.floaters{
+    position: absolute;
+}

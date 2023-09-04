@@ -1,0 +1,44 @@
+.services{
+    position: relative;
+    background-color: #191919;
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.services .card-holder{
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.services-text{
+    color:white;
+    text-align: center;
+}
+.services-text button{
+    background-image: linear-gradient(to right, #ff7d1e, #fd40e5);;
+    padding:10px;
+    border-radius: 20px;
+    color: white;
+}
+.floater{
+    position: absolute;
+    top:-150px;
+    z-index: -1;
+}
+@media (min-width:1200px) {
+    .services{
+        width: max-content;
+    }
+    .services .card-holder{
+        display: flex;
+        max-width: 1200px;
+    }
+    .services .services-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin:0 auto;
+    }
+    
+}
