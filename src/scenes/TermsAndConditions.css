@@ -1,0 +1,41 @@
+.terms-and-conditions{
+    position: relative;
+    background-image: linear-gradient(to right, #ff7d1e, #fd40e5);
+    margin: 100px auto;
+    padding: 50px;
+    border-radius:16px;
+    color: white;
+    margin-bottom: 0;
+    bottom: 70px;
+    max-width: 1200px;
+}
+
+
+#submit {
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+}
+.check-container{
+    display: flex;
+    align-items: center;
+}
+.email-container{
+    display: flex;
+    align-items: center;
+}
+.email-container .todo-email-input{
+    padding:10px;
+    border-radius: 10px 0 0 10px;
+}
+.todo-button{
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    background:black;
+    color: white;
+}
+.todo-button.disabled{
+    background-color: grey;   
+}

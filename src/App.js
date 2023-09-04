@@ -74,7 +74,7 @@ function App() {
       <Boxpart />
       </div>
       <Services />
-      {/* <TermsAndConditions /> */}
+      <TermsAndConditions />
     </div>
   );
 }

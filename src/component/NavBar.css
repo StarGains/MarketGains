@@ -13,7 +13,6 @@
     top: 60px;
     position: sticky;
     z-index: 1;
-    border: 1px solid black;
 }
 .navbar img{
     margin-left:10px ;
