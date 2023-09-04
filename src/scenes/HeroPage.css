@@ -1,0 +1,49 @@
+.hero-page{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 70vh;
+    max-height: max-content;
+}
+.hero-text{
+    font-size: 3rem;
+    width: 90%;
+    max-width: 500px;
+
+}
+.second-line{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.first-line, .third-line{
+    position:relative;
+    -webkit-text-fill-color: transparent;
+    background-image:var(--gradient) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.third-line{
+    text-align: right;
+}
+.hero-page svg{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+}
+
+@media (min-width:1200px) {
+    .hero-page{
+        top:100px;
+    }
+    .hero-text{
+        top:60px;
+        font-size: 5rem;
+        max-width: 900px;
+    }
+    .second-line{
+        font-size: 3rem;
+    }
+}
