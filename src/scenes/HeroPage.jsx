@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SVGPath from "../component/SVGPath";
+import "./HeroPage.css"
 
 export default function HeroPage(){
     useEffect(() => {

@@ -1,3 +1,4 @@
+import './Contactinfo.css'
 export default function ContactInfo({closeModal}) {
     return(
         <div class="Cont-box" data-aoso="fade-down" data-aoso-duration="1000">

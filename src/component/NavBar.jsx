@@ -2,6 +2,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import logo from "../images/logo.svg"
+import './NavBar.css'
+
 export default function NavBar({openContact}){
     //contact info card part
     

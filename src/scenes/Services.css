@@ -1,0 +1,32 @@
+
+.services{
+    background-color: #191919;
+    width:90%;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.floater{
+    position:absolute;
+    right: 100px;
+    transition: transform 1 ease-in-out;
+    z-index: -1;
+}
+
+
+.services-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.services-text p{
+    text-align: center;
+    font-weight: bold;
+}
+.services-text button{
+    background-image: linear-gradient(to right, #ff7d1e, #fd40e5);;
+    padding:10px;
+    border-radius: 20px;
+    color: white;
+}

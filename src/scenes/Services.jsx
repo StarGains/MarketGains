@@ -6,6 +6,8 @@ import nselogo from "../images/NSE.svg"
 import personArrow from "../images/person-arrow.png"
 import bullBear from "../images/Bull-bear.png"
 import bull from "../images/Bull.jpg"
+import './Services.css'
+
 export default function Services() {
   window.addEventListener('scroll', () => {
     const svg = document.querySelector('.floater');

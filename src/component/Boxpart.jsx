@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useState, useEffect, useCallback, useRef } from "react";
 import logo from '../images/logo.svg'
 import profile from '../images/profile.svg'
+import "./Boxpart.css"
 export default function Boxpart() {
   const [percent, setPercent] = useState(0);
   const handleScroll = useCallback(function handleScroll(e) {
@@ -20,7 +21,7 @@ export default function Boxpart() {
     AOS.init();
   }, [])
   return (
-    <div className="wrapper" style={{visibility:'hidden'}} ref={ref}>
+    <div className="wrapper" ref={ref}>
       <div className="box">
         <div className="short-box" style={{ transform: `scale(${Math.min(0.5 + 0.5 * percent, 1)})` }}>
           <div className="inner-box" style={{opacity:`${percent}`}}>
@@ -40,7 +41,7 @@ export default function Boxpart() {
             <div data-aoso="zoom-in" data-aoso-duration="1500" className="inner-graph">
               <div className="graph">
               <svg width="465" height="330" viewBox="0 0 465 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 304.114L16.2883 282.546L29.0229 304.114L50.6164 257.822L62.2437 277.286L82.7298 322L123.148 168.919L139.205 206.269L172.426 126.309L192.912 198.378L230.562 91.5899L244.958 119.471L254.37 91.5899L292.021 235.202L349.049 36.3546L359.569 67.9176L380.056 9L407.186 106.845L421.581 54.2403L440.407 97.9025L462 36.3546" stroke="url(#paint0_linear_79_21)" strokeDasharray="1428" strokeDashoffset={1428*(1-Math.min(percent,1))} strokeOpacity="0.7" strokeWidth="5" />
+                <path d="M3 304.114L16.2883 282.546L29.0229 304.114L50.6164 257.822L62.2437 277.286L82.7298 322L123.148 168.919L139.205 206.269L172.426 126.309L192.912 198.378L230.562 91.5899L244.958 119.471L254.37 91.5899L292.021 235.202L349.049 36.3546L359.569 67.9176L380.056 9L407.186 106.845L421.581 54.2403L440.407 97.9025L462 36.3546" stroke="url(#paint0_linear_79_21)" strokeDasharray="1428" strokeDashoffset={Math.min(0.5 + 0.5 * percent, 1)===1? 0:1428} style={{transition:"stroke-dashoffset 1000ms ease-in"}} strokeOpacity="0.7" strokeWidth="5" />
                 <defs>
                   <linearGradient id="paint0_linear_79_21" x1="-10.5" y1="270" x2="450.5" y2="41" gradientUnits="userSpaceOnUse">
                     <stop stopColor="#FF0000" />

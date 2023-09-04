@@ -1,6 +1,8 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback } from "react";
+import "./TermsAndConditions.css"
+
 export default function TermsAndConditions(){
     //Email checking and linking on web
 
