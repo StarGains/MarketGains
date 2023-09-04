@@ -26,7 +26,7 @@ export default function Boxpart() {
         <div className="short-box" style={{ transform: `scale(${Math.min(0.5 + 0.5 * percent, 1)})` }}>
           <div className="inner-box" style={{opacity:`${percent}`}}>
             <div data-aoso="fade-right" data-aoso-duration="1500" className="inner-sidebar">
-              <div><img src={logo} alt="" className="img" /><div>MarketGains</div></div>
+              <div><img src={logo} alt="" className="logo" /><div>MarketGains</div></div>
               <p>Navigate the market's waves with knowledge as your compass,discipline as your anchor, and intuition as your sail</p>
               <p>In the world of trading, influence flows to those who master this gets success.</p>
             </div>
