@@ -1,5 +1,6 @@
 .App{
     font-size: 1rem;
+    --gradient: linear-gradient(to right, #ff7d1e, #fd40e5);
 }
 .logo{
     height:40px;

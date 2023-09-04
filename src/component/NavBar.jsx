@@ -10,7 +10,7 @@ export default function NavBar({openContact}){
     useEffect(() => {
         AOS.init();
     }, [])
-    return <nav data-aoso="fade-down" data-aoso-duration="1000" className="nav-bar">
+    return <nav className="navbar" data-aoso="fade-down" data-aoso-duration="1000" >
         <img src={logo} alt="" className="logo" />
         <p className="company-name">MarketGains</p>
         <button onClick={openContact}>contact</button>
