@@ -63,7 +63,6 @@ function App() {
         style={customStyles}
         contentLabel="Example Modal"
       >
-    
       <ContactInfo closeModal={closeModal}/>
       </Modal>
       <Gradient />

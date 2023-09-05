@@ -25,7 +25,6 @@ export default function Services() {
         <path d="M89.7468 120.697L70.2071 80.7654C68.5725 77.4248 69.9554 73.3915 73.2961 71.7569C76.6367 70.1222 80.6699 71.5052 82.3046 74.8458L101.844 114.778L89.7468 120.697Z" fill="#399600" />
         <ellipse cx="73" cy="71.1522" rx="7.40746" ry="5.38845" transform="rotate(-26.0737 73 71.1522)" fill="#399600" />
       </svg>
-
       <div data-aos="zoom-in-up" data-aos-duration="1500" className="card-holder">
         <Card card={{ "src": personArrow, "heading": "Your Gateway for Investing!", "footer": "With us you can always trade safe", "body": "Traders and Investors in India use our stable and reliable platforms regularlyTradings have risk and also brings a lot of fortune. It was like rollercoaster that depends on the market to go forward" }} />
         <Card card={{ "src": bullBear, "heading": "User Friendly Trading", "body": "A Trained research team will send BUY/SELL recommendations on the basis of technical analysis.With our trading strategies, and research backed tips you will minimise risks and maximise returns." }} />
