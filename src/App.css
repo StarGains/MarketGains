@@ -299,7 +299,7 @@ section{
     background:black;
     color: white;
     display: inline;
-    width:40%;
+    width:20%;
 }
 .todo-button.disabled{
     background-color: grey;   
@@ -356,6 +356,9 @@ section{
 svg {
     max-width: 100%;
     height: auto;
+}
+.startsvg{
+    position: absolute;
 }
 
 /*the below code is for mobile view*/
@@ -448,7 +451,7 @@ svg {
         padding: 10px;
         font-size: inherit;
         border-radius: 16px;
-        background: var(--gradient);
+        background: linear-gradient(to right, #ff7d1e, #fd40e5);
     }
 
     .inner-nav {
@@ -577,7 +580,7 @@ svg {
 
     /*This is for Modal part*/
     .cont-box {
-        width: 90%;
+        width: 50%;
         max-width: none;
         height: auto;
         margin: 10px auto;
