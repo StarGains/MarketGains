@@ -9,7 +9,14 @@ export default function TermsAndConditions() {
     const [email, setEmail] = useState('')
     const [error, setError] = useState('')
     const sendEmail = useCallback(() => {
-        alert(email)
+        fetch("link").then(e=>{
+            let data = JSON.parse(e)
+            if(data.success){
+                alert(`you will get an email to ${email}`)
+            }else{
+                alert(`something went wrong please try again later`)
+            }
+        })
     }, [email])
     //scroll animation for svg file
     const [percent, setPercent] = useState(0);
