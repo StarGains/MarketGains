@@ -66,7 +66,6 @@ export default function TermsAndConditions() {
 
                 {/**email */}
                 <div className="email-container">
-                    <div className="todo-email">
                         <input
                             value={email}
                             placeholder="enter your email"
@@ -82,12 +81,9 @@ export default function TermsAndConditions() {
                                 }
                             }}
                         />
-                    </div>
-                    <div>
                         {isChecked ? (
-                            <div>
                                 <button
-                                    className="submit-button"
+                                    className="todo-button"
                                     onClick={() => {
                                         if (email === "") {
                                             setError("*please enter your email");
@@ -99,18 +95,14 @@ export default function TermsAndConditions() {
                                 >
                                     Submit
                                 </button>
-                            </div>
                         ) : (
-                            <div>
                                 <button
-                                        className="disabled submit-button"
+                                    className="disabled todo-button"
                                     onClick={() => { setError("*please accept terms and condition"); }}
                                 >
                                     Submit
                                 </button>
-                            </div>
                         )}
-                    </div>
                 </div>
                 <div className="email-container">
                     <p className="error">{error}</p>

@@ -282,31 +282,27 @@ section{
 .check-container {
     display: flex;
     align-items: center;
+    margin: 10px;
 }
-
-.email-container {
-    display: flex;
-    align-items: center;
+.check-container .todo-para{
+    margin:10px;
 }
-
-
-.email-container .todo-email-input {
+.email-container .todo-email-input{
+    padding:10px;
+    border-radius: 20px 0 0 20px;
+    display: inline;
+    width: 60%;
+}
+.todo-button{
     padding: 10px;
-    border-radius: 10px 0 0 10px;
-}
-.todo-email-input{
-    width:225%;
-}
-
-.submit-button {
-    padding: 10px;
-    border-radius: 0 10px 10px 0;
-    background: black;
+    border-radius: 0 20px 20px 0;
+    background:black;
     color: white;
+    display: inline;
+    width:40%;
 }
-
-.submit-button.disabled {
-    background-color: grey;
+.todo-button.disabled{
+    background-color: grey;   
 }
 
 /* The code below is for modal */
