@@ -267,37 +267,46 @@ section{
     z-index: -1;
 }
 
-.accept-tandc {
-    margin-top: 20px;
-    display: flex;
-    margin-bottom: 20px;
-}
-.accept-tandc p{
-    margin-left: 20px;
-}
-
-.email-submit {
-    height: auto;
-    width: 500px;
-    margin-top: 10px;
-    display: flex;
-}
-
-#e1 {
-    height: 35px;
-    width: 400px;
-    border-radius: 20px;
-    padding-inline: 15px;
-}
-
-#submit {
-    margin-left: 20px;
-    height: 35px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: black;
+.terms-and-conditions {
+    position: relative;
+    background-image: linear-gradient(to right, #ff7d1e, #fd40e5);
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 16px;
     color: white;
+    margin-bottom: 0;
+    bottom: 70px;
+    max-width: 1200px;
+}
 
+.check-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.email-container .todo-email-input {
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+.todo-email-input{
+    width:225%;
+}
+
+.submit-button {
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    background: black;
+    color: white;
+}
+
+.submit-button.disabled {
+    background-color: grey;
 }
 
 /* The code below is for modal */
