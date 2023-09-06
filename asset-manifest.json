@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.189cc5b0.css",
-    "main.js": "/static/js/main.c9ba87a0.js",
+    "main.js": "/static/js/main.0341d8bf.js",
     "static/media/Bull-bear.png": "/static/media/Bull-bear.f45949617a96e4408046.png",
     "static/media/person-arrow.png": "/static/media/person-arrow.30195a945a62baf92685.png",
     "static/media/Bull.jpg": "/static/media/Bull.6cc755c46658d1312cb9.jpg",
@@ -10,10 +10,10 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.8a652f89aa0d6a4385e5f4a889132976.svg",
     "main.189cc5b0.css.map": "/static/css/main.189cc5b0.css.map",
-    "main.c9ba87a0.js.map": "/static/js/main.c9ba87a0.js.map"
+    "main.0341d8bf.js.map": "/static/js/main.0341d8bf.js.map"
   },
   "entrypoints": [
     "static/css/main.189cc5b0.css",
-    "static/js/main.c9ba87a0.js"
+    "static/js/main.0341d8bf.js"
   ]
 }
