@@ -35,7 +35,7 @@ export default function TermsAndConditions() {
     }, [])
     return (
         <>
-            <div data-aoso="fade-right" data-aoso-duration="1500">
+            <div data-aos="fade-right" data-aos-duration="1500">
                 <svg style={{ transform: `rotate(${percent * 180}deg)` }} className="blackfan" width="217" height="212" viewBox="0 0 217 212" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M29.4482 133.143L88.7314 104.134C93.6922 101.706 99.6815 103.76 102.109 108.721C104.536 113.682 102.483 119.671 97.5219 122.098L38.2388 151.107L29.4482 133.143Z" fill="#020202" />
                     <path d="M114.684 102.568C112.257 97.607 114.31 91.6176 119.271 89.1902L178.554 60.1814L187.345 78.146L128.062 107.155C123.101 109.582 117.112 107.529 114.684 102.568Z" fill="#020202" />
@@ -44,7 +44,7 @@ export default function TermsAndConditions() {
                     <ellipse cx="108.397" cy="105.645" rx="11" ry="8" transform="rotate(-26.0737 108.397 105.645)" fill="black" />
                 </svg>
             </div>
-            <div data-aoso="fade-up" data-aoso-duration="1500" className="terms-and-conditions">
+            <div data-aos="fade-up" data-aos-duration="1500" className="terms-and-conditions">
                 <h1>Terms and Conditions: </h1>
                 <ol>
                     <li>Once after registering with us for our service calls, amount will not be refunded.</li>
