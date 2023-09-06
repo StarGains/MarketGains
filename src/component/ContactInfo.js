@@ -14,7 +14,7 @@ export default function ContactInfo({closeModal}) {
                     <div>
                         <p>
                             <spawn class="tspawn">Email</spawn>
-                            <br />Stargainsdeportment@gmail.com
+                            <br />Marketgainstrade@gmail.com
                         </p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ export default function ContactInfo({closeModal}) {
                     <div>
                         <p>
                             <spawn class="tspawn">Phone </spawn>
-                            <br />+91-9886549287
+                            <br />+91-98447 96192
                         </p>
                     </div>
                 </div>

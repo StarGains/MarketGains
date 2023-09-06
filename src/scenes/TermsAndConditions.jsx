@@ -9,7 +9,7 @@ export default function TermsAndConditions() {
     const [email, setEmail] = useState('')
     const [error, setError] = useState('')
     const sendEmail = useCallback((email) => {
-        const URL = "";
+        const URL = "https://script.google.com/macros/s/AKfycbxDHIPoYAyO-rk6hRjDQQ93rE0Q0ZNOPeI3tF0g_d42E1UmpNDmfsHG8w7oPrg7Nepx/exec";
         fetch(`${URL}?email=${email}`, {
             redirect: "follow",
             headers: {
