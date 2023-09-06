@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MarketGains/static/css/main.189cc5b0.css",
+    "main.js": "/MarketGains/static/js/main.39b4c449.js",
+    "static/media/Bull-bear.png": "/MarketGains/static/media/Bull-bear.f45949617a96e4408046.png",
+    "static/media/person-arrow.png": "/MarketGains/static/media/person-arrow.30195a945a62baf92685.png",
+    "static/media/Bull.jpg": "/MarketGains/static/media/Bull.6cc755c46658d1312cb9.jpg",
+    "static/media/profile.svg": "/MarketGains/static/media/profile.0b6446274b49ebdd1c21f8ac11c6e68b.svg",
+    "static/media/NSE.svg": "/MarketGains/static/media/NSE.729f61dfbd45d9e044732942923e499e.svg",
+    "index.html": "/MarketGains/index.html",
+    "static/media/logo.svg": "/MarketGains/static/media/logo.8a652f89aa0d6a4385e5f4a889132976.svg",
+    "main.189cc5b0.css.map": "/MarketGains/static/css/main.189cc5b0.css.map",
+    "main.39b4c449.js.map": "/MarketGains/static/js/main.39b4c449.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.189cc5b0.css",
+    "static/js/main.39b4c449.js"
+  ]
+}
