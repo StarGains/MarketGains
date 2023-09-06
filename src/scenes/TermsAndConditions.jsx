@@ -8,16 +8,16 @@ export default function TermsAndConditions() {
     const [isChecked, setIsChecked] = useState(false);
     const [email, setEmail] = useState('')
     const [error, setError] = useState('')
-    const sendEmail = useCallback(() => {
-        fetch("link").then(e=>{
-            let data = JSON.parse(e)
-            if(data.success){
-                alert(`you will get an email to ${email}`)
-            }else{
-                alert(`something went wrong please try again later`)
-            }
-        })
-    }, [email])
+    const sendEmail = useCallback((email) => {
+        const URL = "";
+        fetch(`${URL}?email=${email}`, {
+            redirect: "follow",
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          mode: 'no-cors',
+          }).then(alert('Thanks for joining us. You will be recieving an email'))
+    })
     //scroll animation for svg file
     const [percent, setPercent] = useState(0);
     const handleScroll = useCallback(function handleScroll(e) {
@@ -96,7 +96,7 @@ export default function TermsAndConditions() {
                                             setError("*please enter your email");
                                         } else {
                                             setError("");
-                                            sendEmail();
+                                            sendEmail(email);
                                         }
                                     }}
                                 >
